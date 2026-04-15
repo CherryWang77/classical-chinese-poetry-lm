@@ -16,3 +16,9 @@ model_prototypes/
 
 # macOS
 .DS_Store
+final_corpus/tang_regulated_candidates_multi_file.json
+final_corpus/tang_regulated_candidates_multi_file.json
+checkpoints_decoder_block/
+checkpoints_real_experiment/
+samples_real_experiment/
+.github/workflows/
