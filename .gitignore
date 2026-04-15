@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# Large training artifacts
+checkpoints_decoder_block/
+checkpoints_real_experiment/
+samples_real_experiment/
+
+# Optional archives you may not want on GitHub
+archive_notes/
+archive_helpers/
+model_prototypes/
+
+# macOS
+.DS_Store

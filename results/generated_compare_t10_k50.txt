@@ -1,0 +1,69 @@
+=== Sampled Generation (temperature=1.0, top-k=50) ===
+Checkpoint: checkpoints_decoder_block/decoder_block_final.pt
+Checkpoint step: 50
+Prompt: '气和玉烛，睿化著鸿明。\n缇管一阳生。\n'
+Max new chars: 200
+Temperature: 1.0
+Top-k: 50
+
+=== Generated text ===
+气和玉烛，睿化著鸿明。
+缇管一阳生。
+是。
+风。
+。
+
+看一，、，。
+一。
+万。
+
+来。
+万风，去何，风，时人。
+不。
+
+花不何应是，。
+
+人是是。
+
+
+有春何。
+楼，清春。
+
+谁，相无。
+花。
+花年。
+明愁谁。相花，。
+月。
+。
+，上。
+不可。
+明、。
+玉人有笑一道天。
+
+是。
+
+明。人。
+
+清。
+意。
+不万年无
+
+不一相，。
+万。
+来新处，，有时。
+
+
+
+
+
+
+、云谁、。
+
+何又有、何。
+
+。
+花、云谁，。
+中时。
+
+、云。
+归云
