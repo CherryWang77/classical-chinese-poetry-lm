@@ -22,3 +22,6 @@ checkpoints_decoder_block/
 checkpoints_real_experiment/
 samples_real_experiment/
 .github/workflows/
+.vscode/
+.github/
+.travis.yml
