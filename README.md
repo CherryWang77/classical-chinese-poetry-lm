@@ -4,6 +4,8 @@ This repository contains a computational linguistics course project on classical
 
 Both Tang poetry and Song ci were explored during corpus selection. Tang regulated verse was useful in the exploratory phase because its visible formal regularity makes structure-oriented reasoning comparatively straightforward. The final real training line, however, was based on Song ci. The edited Song-ci materials provided clear line breaks, stanza-like segmentation, richer lyric variation, and a corpus size that was practical for repeated Colab-based experiments.
 
+The corpus is selected and modified through https://github.com/chinese-poetry/chinese-poetry/tree/master
+
 ## Project goals
 
 The project had three main goals:
