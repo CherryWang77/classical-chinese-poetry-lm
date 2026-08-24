@@ -1,0 +1,38 @@
+{
+  "Real Song-ci baseline": {
+    "best_step": 10000,
+    "best_validation_loss": 4.058797073364258,
+    "final_step": 15000,
+    "final_validation_loss": 4.070004558563232
+  },
+  "6L / BS32 / Dim256 / H4": {
+    "best_step": 10000,
+    "best_validation_loss": 4.035873222351074,
+    "final_step": 15000,
+    "final_validation_loss": 4.092119026184082
+  },
+  "6L / BS64 / Dim256 / H4": {
+    "best_step": 7000,
+    "best_validation_loss": 4.052221488952637,
+    "final_step": 20000,
+    "final_validation_loss": 4.416211700439453
+  },
+  "6L / BS32 / Dim256 / H8": {
+    "best_step": 10600,
+    "best_validation_loss": 4.02120680809021,
+    "final_step": 20000,
+    "final_validation_loss": 4.191617107391357
+  },
+  "6L / BS32 / Dim384 / H4": {
+    "best_step": 5000,
+    "best_validation_loss": 4.004561042785644,
+    "final_step": 20000,
+    "final_validation_loss": 5.056803512573242
+  },
+  "6L / BS32 / Dim384 / H8": {
+    "best_step": 5000,
+    "best_validation_loss": 3.9741537094116213,
+    "final_step": 15000,
+    "final_validation_loss": 4.671841716766357
+  }
+}

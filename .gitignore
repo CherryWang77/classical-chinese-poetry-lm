@@ -1,27 +1,32 @@
-# Python
-__pycache__/
-*.pyc
+# Python environments and caches
 .venv/
-.DS_Store
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
 
-# Large training artifacts
-checkpoints_decoder_block/
-checkpoints_real_experiment/
-samples_real_experiment/
+# Local training outputs and large model files
+artifacts/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
 
-# Optional archives you may not want on GitHub
-archive_notes/
+# Local legacy backups retained outside the submission tree
 archive_helpers/
-model_prototypes/
-
-# macOS
-.DS_Store
-final_corpus/tang_regulated_candidates_multi_file.json
-final_corpus/tang_regulated_candidates_multi_file.json
+archive_notes/
 checkpoints_decoder_block/
 checkpoints_real_experiment/
+model_prototypes/
 samples_real_experiment/
-.github/workflows/
-.vscode/
 .github/
-.travis.yml
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log

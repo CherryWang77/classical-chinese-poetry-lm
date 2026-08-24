@@ -1,0 +1,33 @@
+{
+  "run_name": "6l_bs32_d256_h4",
+  "data": {"input_file": "data/songci_main_5mb.txt", "validation_ratio": 0.1},
+  "model": {
+    "context_length": 256,
+    "embed_dim": 256,
+    "num_layers": 6,
+    "num_heads": 4,
+    "dropout": 0.1,
+    "attention_backend": "manual",
+    "positional_encoding": "learned"
+  },
+  "training": {
+    "batch_size": 32,
+    "eval_batch_size": 32,
+    "learning_rate": 0.0003,
+    "max_steps": 15000,
+    "seed": 42,
+    "eval_seed": 1729,
+    "num_val_batches": 5,
+    "log_every": 100,
+    "eval_every": 200,
+    "save_every": 1000,
+    "sample_every": 1000
+  },
+  "generation": {
+    "prompt": "气和玉烛，睿化著鸿明。\n缇管一阳生。\n",
+    "max_new_chars": 200,
+    "temperature": 1.0,
+    "top_k": 50,
+    "seed": 2026
+  }
+}
