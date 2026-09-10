@@ -268,7 +268,6 @@ class QwenGenerator:
             "repetition_penalty": repetition_penalty,
             "pad_token_id": self.tokenizer.pad_token_id,
             "eos_token_id": self.tokenizer.eos_token_id,
-            "generator": torch.Generator(device=self.model.device).manual_seed(decoding_seed),
         }
         if constrained:
             generation_kwargs["max_new_tokens"] = len(automaton.slots) + 1
@@ -286,6 +285,8 @@ class QwenGenerator:
             generation_kwargs["max_new_tokens"] = max_unconstrained_new_tokens
 
         torch.cuda.reset_peak_memory_stats()
+        torch.manual_seed(decoding_seed)
+        torch.cuda.manual_seed_all(decoding_seed)
         start = time.perf_counter()
         with torch.inference_mode():
             output = self.model.generate(**inputs, **generation_kwargs)
