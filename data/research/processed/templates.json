@@ -1,0 +1,807 @@
+{
+  "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+  "templates": [
+    {
+      "template_id": "浣溪沙:v0",
+      "cipai": "浣溪沙",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 615,
+        "validation": 76,
+        "test": 75
+      }
+    },
+    {
+      "template_id": "鹧鸪天:v0",
+      "cipai": "鹧鸪天",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 3,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 3,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 496,
+        "test": 61,
+        "validation": 64
+      }
+    },
+    {
+      "template_id": "菩萨蛮:v0",
+      "cipai": "菩萨蛮",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 2,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 2,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 3,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 3,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 467,
+        "validation": 60,
+        "test": 58
+      }
+    },
+    {
+      "template_id": "蝶恋花:v0",
+      "cipai": "蝶恋花",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "validation": 43,
+        "train": 349,
+        "test": 43
+      }
+    },
+    {
+      "template_id": "减字木兰花:v0",
+      "cipai": "减字木兰花",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 2,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 2,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 3,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 3,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 329,
+        "test": 37,
+        "validation": 38
+      }
+    },
+    {
+      "template_id": "临江仙:v7",
+      "cipai": "临江仙",
+      "variant": 7,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 292,
+        "test": 37,
+        "validation": 36
+      }
+    },
+    {
+      "template_id": "点绛唇:v0",
+      "cipai": "点绛唇",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 4,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 3,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 286,
+        "validation": 36,
+        "test": 43
+      }
+    },
+    {
+      "template_id": "清平乐:v0",
+      "cipai": "清平乐",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 4,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 1,
+          "required_tone": "平"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 254,
+        "validation": 33,
+        "test": 29
+      }
+    },
+    {
+      "template_id": "玉楼春:v0",
+      "cipai": "玉楼春",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 7,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 231,
+        "test": 26,
+        "validation": 26
+      }
+    },
+    {
+      "template_id": "好事近:v0",
+      "cipai": "好事近",
+      "variant": 0,
+      "segments": [
+        {
+          "char_count": 5,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 6,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 7,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": false,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        },
+        {
+          "char_count": 6,
+          "punctuation": "，",
+          "stanza_end": false,
+          "rhyme_slot": false,
+          "rhyme_chain": null,
+          "required_tone": null
+        },
+        {
+          "char_count": 5,
+          "punctuation": "。",
+          "stanza_end": true,
+          "rhyme_slot": true,
+          "rhyme_chain": 0,
+          "required_tone": "仄"
+        }
+      ],
+      "source_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18",
+      "support_counts": {
+        "train": 222,
+        "test": 28,
+        "validation": 29
+      }
+    }
+  ]
+}

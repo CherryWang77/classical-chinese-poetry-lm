@@ -1,0 +1,46 @@
+{
+  "protocol_version": 1,
+  "config_sha256": "987fa982dc0ef129c4c0cd9712ae45ab32b3a4f251b1dd625f167bbd962e9b4e",
+  "source_commits": {
+    "songci": "b8594f81a89752241442f2ce267d6f66f96704ee",
+    "rhyme": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18"
+  },
+  "source_repositories": {
+    "songci": "https://github.com/chinese-poetry/chinese-poetry.git",
+    "rhyme": "https://github.com/charlesix59/chinese_word_rhyme.git"
+  },
+  "licenses": {
+    "songci": "MIT",
+    "rhyme": "MIT"
+  },
+  "source_file_sha256": {
+    "Ci_Tunes.json": "d99bc0280bd75424eea5804f90b7a3800c395c4664103b6fb3ef25d7ee9471f9",
+    "Ci_Word_Tune.json": "f8a4b4fc2d0af6905d77d174b76c8398d465b9e6b016ed0a07891e9b46b32dad"
+  },
+  "counts": {
+    "all": 20135,
+    "selected": 4419,
+    "splits": {
+      "train": 15921,
+      "validation": 1977,
+      "test": 2237
+    },
+    "selected_splits": {
+      "train": 3541,
+      "validation": 441,
+      "test": 437
+    }
+  },
+  "artifacts": {
+    "poems.jsonl": "9b11d5b084972b20692c60d89e6f9210b829bcc340a4c8ce8422fa90144a0ab5",
+    "selected_poems.jsonl": "cc746535b8c29d50b2ee6086da523467b57324649302eef6a1ffc0d437788839",
+    "templates.json": "be63594e1b8691145e825d2fa314bbe4908d9d6a9bb0a6314aeb52edfe6b924c",
+    "template_audit.json": "74ff6639cea3edf930aedbc74f09d7bd0674cf990527889a7fa748b1ebb67ea0",
+    "splits/train.jsonl": "bca8d5a249871c29a6b9e7d240e0684eea02c6a7c4c4c1188355b40d2a1912de",
+    "splits/validation.jsonl": "2889565bee79e53bcd3d915325819b7a1bdc5a79845a31c71ad3b2da3e167709",
+    "splits/test.jsonl": "4b97ba3a33ad7535890fda56892621d0fbab654b36e069f828318705895975d1",
+    "selected/train.jsonl": "d284591b193d6af3a8400049134d3111eaf1d0aace65956cf995e6d0464b8336",
+    "selected/validation.jsonl": "c250eb4dbcfc6839090f2234f19820a2535098306702f17f9acafcbb64ec5abe",
+    "selected/test.jsonl": "6014293a9706bf3155994e0c957914cfc0bf9bc0e6115b28463be8ed18759fcf"
+  }
+}

@@ -2,15 +2,15 @@ from __future__ import annotations
 
 import csv
 import math
-from pathlib import Path
 import random
-from typing import Any, Sequence
+from collections.abc import Sequence
+from pathlib import Path
+from typing import Any
 
 import torch
 
 from .data import batch_from_starts
 from .model import DecoderOnlyLM, cross_entropy_loss
-
 
 METRIC_FIELDS = [
     "step",
@@ -81,7 +81,7 @@ class CsvMetricLogger:
     def close(self) -> None:
         self.handle.close()
 
-    def __enter__(self) -> "CsvMetricLogger":
+    def __enter__(self) -> CsvMetricLogger:
         return self
 
     def __exit__(self, *_: object) -> None:

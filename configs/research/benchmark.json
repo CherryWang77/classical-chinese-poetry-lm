@@ -1,0 +1,30 @@
+{
+  "templates_file": "data/research/processed/templates.json",
+  "dataset_file": "data/research/processed/poems.jsonl",
+  "dataset_dir": "data/research/processed",
+  "rhyme_file": "data/research/raw/chinese_word_rhyme/data/Ci_Word_Tune.json",
+  "output_file": "results/research/generations.jsonl",
+  "char_artifact_dir": "artifacts/research/char",
+  "lora_artifact_dir": "artifacts/research/qwen3_1.7b_lora",
+  "qwen_model_id": "Qwen/Qwen3-1.7B",
+  "qwen_model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "selected_rhyme_lambda_file": "results/research/selected_rhyme_lambda.json",
+  "themes": ["春日相思", "秋夜思乡", "山水隐逸", "边塞报国", "怀古伤今", "人生感悟"],
+  "training_seeds": [42, 1729, 2026],
+  "decoding_seeds": [42, 1729, 2026],
+  "systems": [
+    "char_unconstrained",
+    "char_hard_structure",
+    "qwen_zero_shot",
+    "qwen_lora_unconstrained",
+    "qwen_lora_best_of_8",
+    "qwen_lora_hard_structure",
+    "qwen_lora_hard_structure_rhyme"
+  ],
+  "temperature": 0.8,
+  "top_p": 0.95,
+  "repetition_penalty": 1.05,
+  "best_of_n": 8,
+  "max_unconstrained_new_tokens": 192,
+  "rhyme_lambda_candidates": [0.0, 0.5, 1.0, 2.0, 4.0]
+}

@@ -1,0 +1,2199 @@
+{
+  "protocol_version": 1,
+  "samples_per_template": 3,
+  "templates": {
+    "浣溪沙:v0": {
+      "support_counts": {
+        "train": 615,
+        "validation": 76,
+        "test": 75
+      },
+      "segment_count": 6,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00272",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 275,
+          "normalized_text": "轻屉来时不破尘。\n石榴花映石榴裙。\n有情应得撞腮春。\n夜短更难留远梦，日高何计学行云。\n树深莺过静无人。",
+          "canonical_fsa_text": "轻屉来时不破尘。\n石榴花映石榴裙。\n有情应得撞腮春。\n\n夜短更难留远梦，\n日高何计学行云。\n树深莺过静无人。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "尘",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "裙",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "春",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "云",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "人",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00396",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 406,
+          "normalized_text": "楼倚春江百尺高。\n烟中还未见归桡。\n几时期信似江潮。\n花片片飞风弄蝶，柳阴阴下水平桥。\n日长才过又今宵。",
+          "canonical_fsa_text": "楼倚春江百尺高。\n烟中还未见归桡。\n几时期信似江潮。\n\n花片片飞风弄蝶，\n柳阴阴下水平桥。\n日长才过又今宵。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "高",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "桡",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "潮",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "桥",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "宵",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00422",
+          "author": "晏殊",
+          "source_file": "ci.song.0.json",
+          "source_index": 432,
+          "normalized_text": "阆苑瑶台风露秋。\n整鬟凝思捧觥筹。\n欲归临别强迟留。\n月好谩成孤枕梦，酒阑空得两眉愁。\n此时情绪悔风流。",
+          "canonical_fsa_text": "阆苑瑶台风露秋。\n整鬟凝思捧觥筹。\n欲归临别强迟留。\n\n月好谩成孤枕梦，\n酒阑空得两眉愁。\n此时情绪悔风流。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "秋",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "筹",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "留",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "愁",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "流",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "鹧鸪天:v0": {
+      "support_counts": {
+        "train": 496,
+        "test": 61,
+        "validation": 64
+      },
+      "segment_count": 9,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00037",
+          "author": "夏竦",
+          "source_file": "ci.song.0.json",
+          "source_index": 37,
+          "normalized_text": "镇日无心扫黛眉。\n临行愁见理征衣。\n尊前只恐伤郎意，阁泪汪汪不敢垂。\n停宝马，捧瑶卮。\n相斟相劝忍分离。\n不如饮待奴先醉，图得不知郎去时。",
+          "canonical_fsa_text": "镇日无心扫黛眉。\n临行愁见理征衣。\n尊前只恐伤郎意，\n阁泪汪汪不敢垂。\n\n停宝马，\n捧瑶卮。\n相斟相劝忍分离。\n不如饮待奴先醉，\n图得不知郎去时。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "眉",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "衣",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "垂",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "卮",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "离",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "时",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00246",
+          "author": "柳永",
+          "source_file": "ci.song.0.json",
+          "source_index": 248,
+          "normalized_text": "吹破残烟入夜风。\n一轩明月上帘栊。\n因惊路远人还远，纵得心同寝未同。\n情脉脉，意忡忡。\n碧云归去认无踪。\n只应曾向前生里，爱把鸳鸯两处笼。",
+          "canonical_fsa_text": "吹破残烟入夜风。\n一轩明月上帘栊。\n因惊路远人还远，\n纵得心同寝未同。\n\n情脉脉，\n意忡忡。\n碧云归去认无踪。\n只应曾向前生里，\n爱把鸳鸯两处笼。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "风",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "栊",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "同",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "忡",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "踪",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "笼",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00577",
+          "author": "宋祁",
+          "source_file": "ci.song.0.json",
+          "source_index": 587,
+          "normalized_text": "画毂雕鞍狭路逢。\n一声肠断绣帘中。\n身无彩凤双飞翼，心有灵犀一点通。\n金作屋，玉为笼。\n车如流水马游龙。\n刘郎已恨蓬山远，更隔蓬山几万重。",
+          "canonical_fsa_text": "画毂雕鞍狭路逢。\n一声肠断绣帘中。\n身无彩凤双飞翼，\n心有灵犀一点通。\n\n金作屋，\n玉为笼。\n车如流水马游龙。\n刘郎已恨蓬山远，\n更隔蓬山几万重。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "逢",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "中",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "通",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "笼",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "龙",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "重",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "菩萨蛮:v0": {
+      "support_counts": {
+        "train": 467,
+        "validation": 60,
+        "test": 58
+      },
+      "segment_count": 8,
+      "rhyme_chain_count": 4,
+      "examples": [
+        {
+          "id": "songci-00263",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 266,
+          "normalized_text": "忆郎还上层楼曲。\n楼前芳草年年绿。\n绿似去时袍。\n回头风袖飘。\n郎袍应已旧。\n颜色非长久。\n惜恐镜中春。\n不如花草新。",
+          "canonical_fsa_text": "忆郎还上层楼曲。\n楼前芳草年年绿。\n绿似去时袍。\n回头风袖飘。\n\n郎袍应已旧。\n颜色非长久。\n惜恐镜中春。\n不如花草新。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "曲",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "绿",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "袍",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "飘",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "旧",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "久",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "春",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "新",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00264",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 267,
+          "normalized_text": "闻人语著仙卿字。\n瞋情恨意还须喜。\n何况草长时。\n酒前频共伊。\n娇香堆宝帐。\n月到梨花上。\n心事两人知。\n掩灯罗幕垂。",
+          "canonical_fsa_text": "闻人语著仙卿字。\n瞋情恨意还须喜。\n何况草长时。\n酒前频共伊。\n\n娇香堆宝帐。\n月到梨花上。\n心事两人知。\n掩灯罗幕垂。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "字",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "喜",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "时",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "伊",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "帐",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "上",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "知",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "垂",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00265",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 268,
+          "normalized_text": "夜深不至春蟾见。\n令人更更情飞乱。\n翠幕动风亭。\n时疑响屉声。\n花香闻水榭。\n几误飘衣麝。\n不忍下朱扉。\n绕廊重待伊。",
+          "canonical_fsa_text": "夜深不至春蟾见。\n令人更更情飞乱。\n翠幕动风亭。\n时疑响屉声。\n\n花香闻水榭。\n几误飘衣麝。\n不忍下朱扉。\n绕廊重待伊。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "见",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "乱",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "亭",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "声",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "榭",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "麝",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "扉",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "伊",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "蝶恋花:v0": {
+      "support_counts": {
+        "validation": 43,
+        "train": 349,
+        "test": 43
+      },
+      "segment_count": 10,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00109",
+          "author": "柳永",
+          "source_file": "ci.song.0.json",
+          "source_index": 110,
+          "normalized_text": "伫倚危楼风细细。\n望极春愁，黯黯生天际。\n草色烟光残照里。\n无言谁会凭阑意。\n拟把疏狂图一醉。\n对酒当歌，强乐还无味。\n衣带渐宽终不悔。\n为伊消得人憔悴。",
+          "canonical_fsa_text": "伫倚危楼风细细。\n望极春愁，\n黯黯生天际。\n草色烟光残照里。\n无言谁会凭阑意。\n\n拟把疏狂图一醉。\n对酒当歌，\n强乐还无味。\n衣带渐宽终不悔。\n为伊消得人憔悴。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "细",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "际",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "里",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "意",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "醉",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "味",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "悔",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "悴",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00110",
+          "author": "柳永",
+          "source_file": "ci.song.0.json",
+          "source_index": 111,
+          "normalized_text": "蜀锦地衣丝步障。\n屈曲回廊，静夜闲寻访。\n玉砌雕阑新月上。\n朱扉半掩人相望。\n旋暖熏炉温斗帐。\n玉树琼枝，迤逦相偎傍。\n酒力渐浓春思荡。\n鸳鸯绣被翻红浪。",
+          "canonical_fsa_text": "蜀锦地衣丝步障。\n屈曲回廊，\n静夜闲寻访。\n玉砌雕阑新月上。\n朱扉半掩人相望。\n\n旋暖熏炉温斗帐。\n玉树琼枝，\n迤逦相偎傍。\n酒力渐浓春思荡。\n鸳鸯绣被翻红浪。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "障",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "访",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "上",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "望",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "帐",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "傍",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "荡",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "浪",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第二部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00308",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 311,
+          "normalized_text": "密宴厌厌池馆暮。\n天汉沈沈，借得春光住。\n红翠斗为长袖舞。\n香檀拍过惊鸿翥。\n明日不知花在否。\n今夜圆蟾，后夜忧风雨。\n可惜歌云容易去。\n东城杨柳东城路。",
+          "canonical_fsa_text": "密宴厌厌池馆暮。\n天汉沈沈，\n借得春光住。\n红翠斗为长袖舞。\n香檀拍过惊鸿翥。\n\n明日不知花在否。\n今夜圆蟾，\n后夜忧风雨。\n可惜歌云容易去。\n东城杨柳东城路。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "暮",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "住",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "舞",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "翥",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "否",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "雨",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "去",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "路",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "减字木兰花:v0": {
+      "support_counts": {
+        "train": 329,
+        "test": 37,
+        "validation": 38
+      },
+      "segment_count": 8,
+      "rhyme_chain_count": 4,
+      "examples": [
+        {
+          "id": "songci-00212",
+          "author": "柳永",
+          "source_file": "ci.song.0.json",
+          "source_index": 213,
+          "normalized_text": "花心柳眼。\n郎似游丝常惹绊。\n慵困谁怜。\n绣线金针不喜穿。\n深房密宴。\n争向好天多聚散。\n绿锁窗前。\n几日春愁废管弦。",
+          "canonical_fsa_text": "花心柳眼。\n郎似游丝常惹绊。\n慵困谁怜。\n绣线金针不喜穿。\n\n深房密宴。\n争向好天多聚散。\n绿锁窗前。\n几日春愁废管弦。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "眼",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "绊",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "怜",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "穿",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "宴",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "散",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "前",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "弦",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00324",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 328,
+          "normalized_text": "垂螺近额。\n走上红裀初趁拍。\n只恐轻飞。\n拟倩游丝惹住伊。\n文鸳绣履。\n去似杨花尘不起。\n舞彻伊州。\n头上宫花颤未休。",
+          "canonical_fsa_text": "垂螺近额。\n走上红裀初趁拍。\n只恐轻飞。\n拟倩游丝惹住伊。\n\n文鸳绣履。\n去似杨花尘不起。\n舞彻伊州。\n头上宫花颤未休。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "额",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "拍",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": []
+            },
+            {
+              "segment": 2,
+              "character": "飞",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "伊",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "履",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "起",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "州",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "休",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00608",
+          "author": "欧阳修",
+          "source_file": "ci.song.0.json",
+          "source_index": 619,
+          "normalized_text": "留春不住。\n燕老莺慵无觅处。\n说似残春。\n一老应无却少人。\n风和月好。\n办得黄金须买笑。\n爱惜芳时。\n莫待无花空折枝。",
+          "canonical_fsa_text": "留春不住。\n燕老莺慵无觅处。\n说似残春。\n一老应无却少人。\n\n风和月好。\n办得黄金须买笑。\n爱惜芳时。\n莫待无花空折枝。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "住",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "处",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "春",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "人",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第六部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "好",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "笑",
+              "chain": 2,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "时",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "枝",
+              "chain": 3,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "临江仙:v7": {
+      "support_counts": {
+        "train": 292,
+        "test": 37,
+        "validation": 36
+      },
+      "segment_count": 10,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00554",
+          "author": "滕宗谅",
+          "source_file": "ci.song.0.json",
+          "source_index": 564,
+          "normalized_text": "湖水连天天连水，秋来分外澄清。\n君山自是小蓬瀛。\n气蒸云梦泽，波撼岳阳城。\n帝子有灵能鼓瑟，凄然依旧伤情。\n微闻兰芝动芳馨。\n曲终人不见，江上数峰青。",
+          "canonical_fsa_text": "湖水连天天连水，\n秋来分外澄清。\n君山自是小蓬瀛。\n气蒸云梦泽，\n波撼岳阳城。\n\n帝子有灵能鼓瑟，\n凄然依旧伤情。\n微闻兰芝动芳馨。\n曲终人不见，\n江上数峰青。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "清",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "瀛",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "城",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "情",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "馨",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "青",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十一部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00915",
+          "author": "杜安世",
+          "source_file": "ci.song.0.json",
+          "source_index": 928,
+          "normalized_text": "太史占天云物好，初阳律合黄锺。\n日缠南极北郊风。\n雪花先柳絮，飞舞透帘栊。\n圣运时和兼岁稔，歌欢处处皆同。\n簪声相庆晓光中。\n金炉红兽炭，一举寿杯空。",
+          "canonical_fsa_text": "太史占天云物好，\n初阳律合黄锺。\n日缠南极北郊风。\n雪花先柳絮，\n飞舞透帘栊。\n\n圣运时和兼岁稔，\n歌欢处处皆同。\n簪声相庆晓光中。\n金炉红兽炭，\n一举寿杯空。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "锺",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "风",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "栊",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "同",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "中",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "空",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第一部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00916",
+          "author": "杜安世",
+          "source_file": "ci.song.0.json",
+          "source_index": 929,
+          "normalized_text": "遍地残花庭院静，流莺对对相过。\n万条风柳间婆娑。\n樱桃初弄色，萱草自成窠。\n早是芳菲时节晚，追游期会无多。\n眉山敛翠近秋波。\n日长初睡起，愁与病相和。",
+          "canonical_fsa_text": "遍地残花庭院静，\n流莺对对相过。\n万条风柳间婆娑。\n樱桃初弄色，\n萱草自成窠。\n\n早是芳菲时节晚，\n追游期会无多。\n眉山敛翠近秋波。\n日长初睡起，\n愁与病相和。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "过",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "娑",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "窠",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "多",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "波",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            },
+            {
+              "segment": 9,
+              "character": "和",
+              "chain": 0,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第九部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "点绛唇:v0": {
+      "support_counts": {
+        "train": 286,
+        "validation": 36,
+        "test": 43
+      },
+      "segment_count": 9,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00003",
+          "author": "王禹",
+          "source_file": "ci.song.0.json",
+          "source_index": 3,
+          "normalized_text": "雨恨云愁，江南依旧称佳丽。\n水村渔市。\n一缕孤烟细。\n天际征鸿，遥认行如缀。\n平生事。\n此时凝睇。\n谁会凭阑意。",
+          "canonical_fsa_text": "雨恨云愁，\n江南依旧称佳丽。\n水村渔市。\n一缕孤烟细。\n\n天际征鸿，\n遥认行如缀。\n平生事。\n此时凝睇。\n谁会凭阑意。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "丽",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "市",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "细",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "缀",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "事",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "睇",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "意",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00008",
+          "author": "寇准",
+          "source_file": "ci.song.0.json",
+          "source_index": 8,
+          "normalized_text": "水陌轻寒，社公雨足东风慢。\n定巢新燕。\n湿雨穿花转。\n象尺熏炉，拂晓停针线。\n愁蛾浅。\n飞红零乱。\n侧卧珠帘卷。",
+          "canonical_fsa_text": "水陌轻寒，\n社公雨足东风慢。\n定巢新燕。\n湿雨穿花转。\n\n象尺熏炉，\n拂晓停针线。\n愁蛾浅。\n飞红零乱。\n侧卧珠帘卷。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "慢",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "燕",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "转",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "线",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "浅",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "乱",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "卷",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00028",
+          "author": "林逋",
+          "source_file": "ci.song.0.json",
+          "source_index": 28,
+          "normalized_text": "金谷年年，乱生春色谁为主。\n馀花落处。\n满地和烟雨。\n又是离歌，一阕长亭暮。\n王孙去。\n萋萋无数。\n南北东西路。",
+          "canonical_fsa_text": "金谷年年，\n乱生春色谁为主。\n馀花落处。\n满地和烟雨。\n\n又是离歌，\n一阕长亭暮。\n王孙去。\n萋萋无数。\n南北东西路。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "主",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "处",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "雨",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "暮",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 6,
+              "character": "去",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "数",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            },
+            {
+              "segment": 8,
+              "character": "路",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "清平乐:v0": {
+      "support_counts": {
+        "train": 254,
+        "validation": 33,
+        "test": 29
+      },
+      "segment_count": 8,
+      "rhyme_chain_count": 2,
+      "examples": [
+        {
+          "id": "songci-00286",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 289,
+          "normalized_text": "屏山斜展。\n帐卷红绡半。\n泥浅曲池飞海燕。\n风度杨花满院。\n云情雨意空深。\n觉来一枕春阴。\n陇上梅花落尽，江南消息沈沈。",
+          "canonical_fsa_text": "屏山斜展。\n帐卷红绡半。\n泥浅曲池飞海燕。\n风度杨花满院。\n\n云情雨意空深。\n觉来一枕春阴。\n陇上梅花落尽，\n江南消息沈沈。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "展",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "半",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "燕",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "院",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "深",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "阴",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "沈",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第十三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00287",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 290,
+          "normalized_text": "清歌逐酒。\n腻脸生红透。\n樱小杏青寒食后。\n衣换缕金轻绣。\n画堂新月朱扉。\n严城夜鼓声迟。\n细看玉人娇面，春光不在花枝。",
+          "canonical_fsa_text": "清歌逐酒。\n腻脸生红透。\n樱小杏青寒食后。\n衣换缕金轻绣。\n\n画堂新月朱扉。\n严城夜鼓声迟。\n细看玉人娇面，\n春光不在花枝。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "酒",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "透",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "后",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "绣",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十二部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "扉",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "迟",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "枝",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第三部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00369",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 377,
+          "normalized_text": "青袍如草。\n得意还年少。\n马跃绿螭金络脑。\n寒食乍临新晓。\n曲池斜度鸾桥。\n西园一片笙箫。\n自欲剩留春住，风花无奈飘飘。",
+          "canonical_fsa_text": "青袍如草。\n得意还年少。\n马跃绿螭金络脑。\n寒食乍临新晓。\n\n曲池斜度鸾桥。\n西园一片笙箫。\n自欲剩留春住，\n风花无奈飘飘。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "草",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "少",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 2,
+              "character": "脑",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "晓",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "桥",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "箫",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "飘",
+              "chain": 1,
+              "required_tone": "平",
+              "lexicon_groups": [
+                "第八部"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "玉楼春:v0": {
+      "support_counts": {
+        "train": 231,
+        "test": 26,
+        "validation": 26
+      },
+      "segment_count": 8,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00011",
+          "author": "钱惟演",
+          "source_file": "ci.song.0.json",
+          "source_index": 11,
+          "normalized_text": "城上风光莺语乱。\n城下烟波春拍岸。\n绿杨芳草几时休，泪眼愁肠先已断。\n情怀渐变成衰晚。\n鸾鉴朱颜惊暗换。\n昔年多病厌芳尊，今日芳尊惟恐浅。",
+          "canonical_fsa_text": "城上风光莺语乱。\n城下烟波春拍岸。\n绿杨芳草几时休，\n泪眼愁肠先已断。\n\n情怀渐变成衰晚。\n鸾鉴朱颜惊暗换。\n昔年多病厌芳尊，\n今日芳尊惟恐浅。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "乱",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "岸",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "断",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "晚",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "换",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "浅",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第七部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00012",
+          "author": "钱惟演",
+          "source_file": "ci.song.0.json",
+          "source_index": 12,
+          "normalized_text": "锦箨参差朱槛曲。\n露濯文犀和粉绿。\n未容浓翠伴桃红，已许纤枝留凤宿。\n嫩似春荑明似玉。\n一寸芳心谁管束。\n劝君速吃莫踟蹰，看被南风吹作竹。",
+          "canonical_fsa_text": "锦箨参差朱槛曲。\n露濯文犀和粉绿。\n未容浓翠伴桃红，\n已许纤枝留凤宿。\n\n嫩似春荑明似玉。\n一寸芳心谁管束。\n劝君速吃莫踟蹰，\n看被南风吹作竹。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "曲",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "绿",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "宿",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "玉",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "束",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "竹",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十五部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00080",
+          "author": "柳永",
+          "source_file": "ci.song.0.json",
+          "source_index": 81,
+          "normalized_text": "昭华夜醮连清曙。\n金殿霓旌笼瑞雾。\n九枝擎烛灿繁星，百和焚香抽翠缕。\n香罗荐地延真驭。\n万乘凝旒听秘语。\n卜年无用考灵龟，从此乾坤齐历数。",
+          "canonical_fsa_text": "昭华夜醮连清曙。\n金殿霓旌笼瑞雾。\n九枝擎烛灿繁星，\n百和焚香抽翠缕。\n\n香罗荐地延真驭。\n万乘凝旒听秘语。\n卜年无用考灵龟，\n从此乾坤齐历数。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 0,
+              "character": "曙",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 1,
+              "character": "雾",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "缕",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 4,
+              "character": "驭",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "语",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第四部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "数",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "好事近:v0": {
+      "support_counts": {
+        "train": 222,
+        "test": 28,
+        "validation": 29
+      },
+      "segment_count": 8,
+      "rhyme_chain_count": 1,
+      "examples": [
+        {
+          "id": "songci-00284",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 287,
+          "normalized_text": "月色透横枝，短叶小花无力。\n北客一声长笛，怨江南先得。\n谁教强半腊前开，多情为春忆。\n留取大家沈醉，正雨休风息。",
+          "canonical_fsa_text": "月色透横枝，\n短叶小花无力。\n北客一声长笛，\n怨江南先得。\n\n谁教强半腊前开，\n多情为春忆。\n留取大家沈醉，\n正雨休风息。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "力",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "得",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "忆",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "息",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00285",
+          "author": "张先",
+          "source_file": "ci.song.0.json",
+          "source_index": 288,
+          "normalized_text": "灯烛上山堂，香雾暖生寒夕。\n前夜雪清梅瘦，已不禁轻摘。\n双歌声断宝杯空，妆光艳瑶席。\n相趁笑声归去，有随人月色。",
+          "canonical_fsa_text": "灯烛上山堂，\n香雾暖生寒夕。\n前夜雪清梅瘦，\n已不禁轻摘。\n\n双歌声断宝杯空，\n妆光艳瑶席。\n相趁笑声归去，\n有随人月色。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "夕",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "摘",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "席",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "色",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十七部"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "songci-00578",
+          "author": "宋祁",
+          "source_file": "ci.song.0.json",
+          "source_index": 588,
+          "normalized_text": "睡起玉屏风，吹去乱红犹落。\n天气骤生轻暖，衬沈香帷箔。\n珠帘约住海棠风，愁拖两眉角。\n昨夜一庭明月，冷秋千红索。",
+          "canonical_fsa_text": "睡起玉屏风，\n吹去乱红犹落。\n天气骤生轻暖，\n衬沈香帷箔。\n\n珠帘约住海棠风，\n愁拖两眉角。\n昨夜一庭明月，\n冷秋千红索。\n\n",
+          "accepted": true,
+          "rhyme_slots": [
+            {
+              "segment": 1,
+              "character": "落",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十六部"
+              ]
+            },
+            {
+              "segment": 3,
+              "character": "箔",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十六部"
+              ]
+            },
+            {
+              "segment": 5,
+              "character": "角",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "第十六部"
+              ]
+            },
+            {
+              "segment": 7,
+              "character": "索",
+              "chain": 0,
+              "required_tone": "仄",
+              "lexicon_groups": [
+                "多"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

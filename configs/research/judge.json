@@ -1,0 +1,14 @@
+{
+  "model_id": "Qwen/Qwen3-4B",
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "load_in_4bit": true,
+  "max_new_tokens": 256,
+  "temperature": 0.0,
+  "rubric": {
+    "fluency": "语言是否自然流畅、无明显语病",
+    "coherence": "全篇意象与语义是否连贯",
+    "theme_adherence": "是否贴合给定主题",
+    "poetic_quality": "意象、含蓄性与整体诗性"
+  },
+  "disclaimer": "Descriptive only; same-family LLM judge is not primary quality evidence."
+}

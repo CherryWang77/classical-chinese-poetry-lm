@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+*.egg-info/
 
 # Local training outputs and large model files
 artifacts/
@@ -20,7 +21,17 @@ checkpoints_decoder_block/
 checkpoints_real_experiment/
 model_prototypes/
 samples_real_experiment/
-.github/
+
+# Research caches and private credentials
+.cache/research/
+data/research/raw/
+data/research/processed/poems.jsonl
+data/research/processed/selected_poems.jsonl
+data/research/processed/splits/
+data/research/processed/selected/
+artifacts/research/
+.env
+*.token
 
 # Editors and operating systems
 .DS_Store

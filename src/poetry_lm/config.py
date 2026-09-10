@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
 import json
+from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
@@ -105,7 +105,7 @@ class ExperimentConfig:
     generation: GenerationConfig
 
     @classmethod
-    def from_dict(cls, payload: dict[str, Any]) -> "ExperimentConfig":
+    def from_dict(cls, payload: dict[str, Any]) -> ExperimentConfig:
         config = cls(
             run_name=payload["run_name"],
             data=DataConfig(**payload["data"]),
@@ -117,7 +117,7 @@ class ExperimentConfig:
         return config
 
     @classmethod
-    def from_json(cls, path: Path) -> "ExperimentConfig":
+    def from_json(cls, path: Path) -> ExperimentConfig:
         with path.open("r", encoding="utf-8") as handle:
             return cls.from_dict(json.load(handle))
 

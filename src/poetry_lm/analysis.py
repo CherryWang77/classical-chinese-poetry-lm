@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from collections import Counter
-from pathlib import Path
 import statistics
-from typing import Any, Iterable
-
+from collections import Counter
+from collections.abc import Iterable
+from pathlib import Path
+from typing import Any
 
 PUNCTUATION = set("，。！？；：、（）《》〈〉“”‘’〔〕【】—…·,.!?;:()[]\"' ")
 
@@ -74,7 +74,9 @@ def total_variation_distance(left: dict[str, int], right: dict[str, int]) -> flo
     right_probabilities = normalized_distribution(right, support)
     return 0.5 * sum(
         abs(left_value - right_value)
-        for left_value, right_value in zip(left_probabilities, right_probabilities)
+        for left_value, right_value in zip(
+            left_probabilities, right_probabilities, strict=True
+        )
     )
 
 

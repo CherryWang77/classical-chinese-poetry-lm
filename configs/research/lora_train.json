@@ -1,0 +1,23 @@
+{
+  "model_id": "Qwen/Qwen3-1.7B",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "training_seeds": [42, 1729, 2026],
+  "dataset_dir": "data/research/processed",
+  "output_dir": "artifacts/research/qwen3_1.7b_lora",
+  "max_length": 384,
+  "epochs": 3,
+  "learning_rate": 0.0001,
+  "warmup_ratio": 0.05,
+  "weight_decay": 0.01,
+  "micro_batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "save_steps": 250,
+  "eval_steps": 250,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj", "k_proj", "v_proj", "o_proj",
+    "gate_proj", "up_proj", "down_proj"
+  ]
+}

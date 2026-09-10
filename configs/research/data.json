@@ -1,0 +1,32 @@
+{
+  "source": {
+    "songci_repository": "https://github.com/chinese-poetry/chinese-poetry.git",
+    "songci_commit": "b8594f81a89752241442f2ce267d6f66f96704ee",
+    "rhyme_repository": "https://github.com/charlesix59/chinese_word_rhyme.git",
+    "rhyme_commit": "ff0e9c13fb037c43e0eaa5dc929c0fe4fa2ffb18"
+  },
+  "input": {
+    "songci_dir": "data/research/raw/chinese-poetry/宋词",
+    "tunes_file": "data/research/raw/chinese_word_rhyme/data/Ci_Tunes.json",
+    "rhyme_file": "data/research/raw/chinese_word_rhyme/data/Ci_Word_Tune.json"
+  },
+  "output_dir": "data/research/processed",
+  "split_seed": 2026,
+  "num_folds": 10,
+  "test_fold": 0,
+  "validation_fold": 1,
+  "near_duplicate_ngram": 5,
+  "near_duplicate_threshold": 0.9,
+  "target_templates": {
+    "浣溪沙": 0,
+    "鹧鸪天": 0,
+    "菩萨蛮": 0,
+    "蝶恋花": 0,
+    "减字木兰花": 0,
+    "临江仙": 7,
+    "点绛唇": 0,
+    "清平乐": 0,
+    "玉楼春": 0,
+    "好事近": 0
+  }
+}
