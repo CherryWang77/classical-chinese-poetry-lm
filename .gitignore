@@ -20,7 +20,6 @@ checkpoints_decoder_block/
 checkpoints_real_experiment/
 model_prototypes/
 samples_real_experiment/
-.github/
 
 # Editors and operating systems
 .DS_Store
@@ -30,3 +29,5 @@ samples_real_experiment/
 # Temporary files
 *.tmp
 *.log
+*.egg-info/
+data/research/
