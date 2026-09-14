@@ -1,8 +1,24 @@
 # Classical Chinese Poetry Generation with a Character-Level Transformer
 
+![tests](https://github.com/CherryWang77/classical-chinese-poetry-lm/actions/workflows/test.yml/badge.svg)
+
 This repository contains the code and evidence for a computational linguistics project on character-level Song-ci generation. It implements a decoder-only Transformer, controlled hyperparameter comparisons, checkpointed generation, and structural comparison between the edited training corpus and generated text.
 
 The raw poetry records come from the [`chinese-poetry/chinese-poetry`](https://github.com/chinese-poetry/chinese-poetry) collection. This repository keeps only the processed 5 MiB Song-ci corpus used by the reported experiments, rather than duplicating the complete upstream archive.
+
+A sample from the strongest balanced model (6 layers, 256 dimensions, 8 heads, step 10000). The first two lines are the fixed prompt; the rest is generated character by character:
+
+```text
+气和玉烛，睿化著鸿明。
+缇管一阳生。
+看八千椿算来现，同姓显，大椿年。
+
+十月三春春色到，见花面、先生四日。
+金尊满引，一气如虹白。
+金城里，画楼深处，依旧画梁间。
+```
+
+Ongoing work on template-constrained decoding lives in the branch `research/every-character-counts`. That branch contains code and unit tests only; no experimental results have been produced yet.
 
 ## Main findings
 
@@ -14,6 +30,8 @@ The raw poetry records come from the [`chinese-poetry/chinese-poetry`](https://g
 | 6L / BS32 / D256 / H8 | 10600 | 4.021207 | 20000 | 4.191617 |
 | 6L / BS32 / D384 / H4 | 5000 | 4.004561 | 20000 | 5.056804 |
 | 6L / BS32 / D384 / H8 | 5000 | 3.974154 | 15000 | 4.671842 |
+
+![Best versus final validation loss per configuration](results/figures/best_vs_final_validation_loss.png)
 
 The strongest peak model was `6L / BS32 / D384 / H8` at step 5000. The strongest balanced model was `6L / BS32 / D256 / H8`: it combined a strong validation region with substantially less late-stage deterioration than either D384 line.
 
@@ -129,6 +147,15 @@ python scripts/benchmark_attention.py \
   --device cuda \
   --output results/attention_benchmark.csv
 ```
+
+Measured on a Colab T4 (batch 32, context 256, embed 256, 8 heads, one forward and backward pass through the attention module):
+
+| Backend | Median step (ms) | Peak CUDA memory (MB) |
+|---|---:|---:|
+| `manual` | 13.90 | 323.7 |
+| `sdpa` | 7.61 | 124.1 |
+
+The fused SDPA kernel is 1.83x faster and uses 38% of the peak memory of the explicit implementation, because it never materialises the full 256 x 256 attention score matrix per head. Full output: `results/attention_benchmark.csv`.
 
 ## Rebuild figures and analyse generated structure
 

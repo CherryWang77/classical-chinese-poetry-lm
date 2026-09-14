@@ -1,0 +1,3 @@
+backend,device,batch_size,context_length,embed_dim,num_heads,mean_step_ms,median_step_ms,peak_memory_mb
+manual,cuda,32,256,256,8,14.40230061999955,13.901552499930858,323.69140625
+sdpa,cuda,32,256,256,8,7.6461478199962585,7.607883999980913,124.14453125
