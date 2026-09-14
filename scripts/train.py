@@ -3,13 +3,12 @@ from __future__ import annotations
 
 import argparse
 import json
-from pathlib import Path
 import random
 import sys
 import time
+from pathlib import Path
 
 import torch
-
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPOSITORY_ROOT / "src"))
@@ -20,13 +19,13 @@ from poetry_lm.generation import generate_ids, make_generator  # noqa: E402
 from poetry_lm.model import DecoderOnlyLM, cross_entropy_loss  # noqa: E402
 from poetry_lm.training import (  # noqa: E402
     CsvMetricLogger,
+    evaluate_fixed,
     load_checkpoint,
     loss_to_bpc,
     restore_rng_state,
     save_checkpoint,
     select_device,
     set_global_seed,
-    evaluate_fixed,
 )
 
 
